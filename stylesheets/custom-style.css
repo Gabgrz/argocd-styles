@@ -2,6 +2,14 @@
   background: #0070E0;
 }
 
-.nav-bar__logo img {
+.nav-bar__logo img{
     content: url(https://github.com/Gabgrz/argocd-styles/blob/main/images/paypal-logo.png?raw=true);
+}
+
+.top-bar__title text-truncate top-bar__right-side{
+  color: #363C4A;
+}
+
+.login-logout-button{
+  color: #363C4A;
 }
