@@ -1,3 +1,7 @@
 .top-bar{
   background: #003087;
 }
+
+.nav-bar__logo img {
+    content: url(https://raw.githubusercontent.com/Gabgrz/argocd-styles/main/images/PayPal_Logo_Vertical_Full_Color_RGB.png);
+}
