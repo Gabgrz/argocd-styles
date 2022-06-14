@@ -2,10 +2,6 @@
     content: url(https://github.com/Gabgrz/argocd-styles/blob/main/images/paypal-logo.png?raw=true);
 }
 
-.status-bar__segment__fill{
-    background: #0070E0;
-}
-
 .top-bar__title{
   color: #363C4A;
 }
