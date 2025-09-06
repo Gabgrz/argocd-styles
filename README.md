@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
+# Argo CD Custom Styles
 
-You can use the [editor on GitHub](https://github.com/Gabgrz/argocd-styles/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+This repository contains custom CSS styles for Argo CD to apply custom branding and visual customizations.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Overview
 
-### Markdown
+This project provides custom styling for Argo CD (Argo Continuous Deployment) to integrate a company's visual identity and improve the user experience with branded elements.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Features
 
-```markdown
-Syntax highlighted code block
+- **Custom Logo Integration**: Replaces the default Argo CD logo with your company's logo
+- **Custom Color Scheme**: Applies your brand colors to the interface
+- **Consistent Branding**: Maintains visual consistency with your company's design guidelines
 
-# Header 1
-## Header 2
-### Header 3
+## Files
 
-- Bulleted
-- List
+- `stylesheets/custom-styles-3.css` - Main stylesheet containing all custom CSS rules
+- `images/` - Contains custom logo assets in various formats
+- `_config.yml` - Jekyll configuration for GitHub Pages
 
-1. Numbered
-2. List
+## Usage
 
-**Bold** and _Italic_ and `Code` text
+To apply these styles to your Argo CD instance:
 
-[Link](url) and ![Image](src)
-```
+1. Clone this repository
+2. Host the CSS file in a location accessible by your Argo CD instance
+3. Configure Argo CD to load the custom stylesheet
+4. The styles will automatically apply your custom branding to your Argo CD interface
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## Customizations
 
-### Jekyll Themes
+The current styles include:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Gabgrz/argocd-styles/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- Navigation bar logo replacement with custom logo
+- Top bar title color customization
+- Login/logout button color updates
 
-### Support or Contact
+## Contributing
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Feel free to submit issues or pull requests to improve the styling or add new customizations.
+
+## License
+
+This project is open source and available under the same license as Argo CD.
